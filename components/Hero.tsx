@@ -26,7 +26,7 @@ const Hero = () => {
             />
 
             <p className='text-center text-[20px] md:text-5xl lg:text-6xl'>
-              Nice To See You  , I'm  Pintu Kumar , A Next.js Developer 
+            Nice to See You, I&apos;m Pintu Kumar, A Next.js Developer
             </p>
 
             

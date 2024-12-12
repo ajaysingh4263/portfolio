@@ -1,8 +1,6 @@
 import { projects } from '@/data'
-import { title } from 'process'
 import React from 'react'
 import { PinContainer } from './ui/3d-pin'
-import { img } from 'framer-motion/client'
 import { FaLocationArrow } from 'react-icons/fa'
 
 

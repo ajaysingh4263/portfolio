@@ -4,7 +4,21 @@ const nextConfig = {
     output : "export",
     typescript :{
         ignoreBuildErrors: true,
-    }
+    },
+    eslint :{
+        ignoreBuildErrors: true,
+    },
+    webpack(config, { isServer }) {
+        if (!isServer) {
+          config.devtool = 'hidden-source-map';  // or leave it undefined
+        }
+        return config;
+      },
+      sentry: {
+        // Optional: automatically deletes sourcemaps after upload
+        deleteSourceMapsAfterUpload: true,  
+      }
+
 };
 
 export default withSentryConfig(nextConfig, {

@@ -1,7 +1,6 @@
 "use client"
 
 import { cn } from "@/utils/cn";
-import { linearGradient } from "framer-motion/client";
 import { BackgroundGradientAnimation } from "./GradientBG";
 import { GlobeDemo } from "./GridGlobe";
 import { useState } from "react";
