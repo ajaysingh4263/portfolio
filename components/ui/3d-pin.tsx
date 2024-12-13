@@ -6,7 +6,6 @@ import Link from "next/link";
 
 export const PinContainer = ({
   children,
-  title,
   href,
   className,
   containerClassName,
